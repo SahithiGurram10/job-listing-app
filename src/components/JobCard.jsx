@@ -1,5 +1,3 @@
-import React from "react";
-
 const highlightText = (text, keyword) => {
   if (!keyword) return text;
 
