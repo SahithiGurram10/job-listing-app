@@ -9,7 +9,7 @@ This application allows users to search and filter job listings dynamically with
 
 ## Live Demo
 
-🔗 Deployed Application:  
+Deployed Application:  
 https://your-frontend.vercel.app
 
 ---
@@ -38,23 +38,23 @@ https://your-frontend.vercel.app
 
 ## Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/job-listing-app.git
+git clone https://github.com/SahithiGurram10/job-listing-app.git
 ```
 
-### 2️⃣ Navigate to the project directory
+### 2️. Navigate to the project directory
 
 ```
 cd job-listing-app
 ```
 
-### 3️⃣ Install dependencies 
+### 3️. Install dependencies 
 ```
 npm install
 ```
-### 4️⃣ Start the development server 
+### 4️. Start the development server 
 
 ``` 
 npm run dev
@@ -68,7 +68,7 @@ http://localhost:5173
 
 ##  Published / Deployed Project Link
 
-🔗 Live Application URL (Vercel / Netlify):  
+Live Application URL (Vercel):  
 [https://your-frontend.vercel.app](https://your-frontend.vercel.app/)
 
 ---
