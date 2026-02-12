@@ -74,7 +74,7 @@ Live Application URL (Vercel):
 
 ##  Screen Recording Link
 
-📽️ Project Demonstration & Code Walkthrough:  
+ Project Demonstration & Code Walkthrough:  
 https://drive.google.com/file/d/your-screen-recording-link/view
 
 ### Video Includes:
