@@ -1,31 +1,31 @@
 # Frontend Job Listing UI - Cygnus Assignment
 
-# 💼 Job Listing App
+# Job Listing App
 
 A modern and responsive Job Board application built using **React and Vite**.  
 This application allows users to search and filter job listings dynamically with real-time updates.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 Deployed Application:  
 https://your-frontend.vercel.app
 
 ---
 
-## 📌 Features
+## Features
 
-- 🔍 Search jobs by title
-- 🏷️ Filter jobs by category
-- ⚡ Real-time dynamic filtering
-- 📱 Fully responsive design
-- 🧩 Reusable component-based architecture
-- 🚀 Fast development and build with Vite
+-  Search jobs by title
+-  Filter jobs by category
+- Real-time dynamic filtering
+- Fully responsive design
+- Reusable component-based architecture
+- Fast development and build with Vite
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React
 - **Build Tool:** Vite
@@ -36,7 +36,7 @@ https://your-frontend.vercel.app
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the repository
 
@@ -73,7 +73,7 @@ http://localhost:5173
 
 ---
 
-## 🎥 Screen Recording Link
+##  Screen Recording Link
 
 📽️ Project Demonstration & Code Walkthrough:  
 https://drive.google.com/file/d/your-screen-recording-link/view
@@ -113,7 +113,5 @@ https://drive.google.com/file/d/your-screen-recording-link/view
 
 ---
 
-
----
 
 Thank you for reviewing this project. I look forward to your feedback.
