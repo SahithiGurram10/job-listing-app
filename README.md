@@ -10,8 +10,7 @@ This application allows users to search and filter job listings dynamically with
 ## Live Demo
 
 Deployed Application:  
-https://your-frontend.vercel.app
-
+https://job-listing-app-orpin.vercel.app/
 ---
 
 ## Features
@@ -69,7 +68,7 @@ http://localhost:5173
 ##  Published / Deployed Project Link
 
 Live Application URL (Vercel):  
-[https://your-frontend.vercel.app](https://your-frontend.vercel.app/)
+[https://job-listing-app-orpin.vercel.app/](https://your-frontend.vercel.app/)
 
 ---
 
