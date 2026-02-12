@@ -1,57 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #fff;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 10px 20px 40px 20px; 
 }
 
 .container {
-  padding: 20px;
   max-width: 1200px;
   margin: auto;
 }
 
-h1 {
+
+.header {
   text-align: center;
+  margin-bottom: 30px;
 }
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
 
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  padding-right: 80px;
 }
 
 .filters input,
 .filters select {
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  transition: 0.3s ease;
+}
+
+.filters input:focus,
+.filters select:focus {
+  border-color: #6366f1;
 }
 
 .grid {
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr;
-  gap: 15px;
 }
 
+
 .job-card {
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #334155;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  border-color: #6366f1;
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.2);
+}
+
+.job-card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.job-card p {
+  margin: 8px 0;
+  color: #cbd5e1;
 }
 
 .badge {
   display: inline-block;
-  margin-top: 8px;
-  padding: 4px 8px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 4px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
   font-size: 12px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
 }
 
-/* Responsive */
+
+.no-results {
+  text-align: center;
+  color: #cbd5e1;
+}
+
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

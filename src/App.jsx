@@ -21,38 +21,39 @@ function App() {
       typeFilter === "All" ? true : job.type === typeFilter
     )
     .sort((a, b) => {
-      if (sortOrder === "asc") {
-        return a.title.localeCompare(b.title);
-      }
-      if (sortOrder === "desc") {
-        return b.title.localeCompare(a.title);
-      }
+      if (sortOrder === "asc") return a.title.localeCompare(b.title);
+      if (sortOrder === "desc") return b.title.localeCompare(a.title);
       return 0;
     });
 
   return (
-    <div className="container">
-      <h1>Job Board</h1>
+    <div className="app">
+      <div className="container">
+        <header className="header">
+          <h1>Job Board</h1>
+          <p>Find your dream tech job today</p>
+        </header>
 
-      <Filters
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        locationFilter={locationFilter}
-        setLocationFilter={setLocationFilter}
-        typeFilter={typeFilter}
-        setTypeFilter={setTypeFilter}
-        sortOrder={sortOrder}
-        setSortOrder={setSortOrder}
-      />
+        <Filters
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          locationFilter={locationFilter}
+          setLocationFilter={setLocationFilter}
+          typeFilter={typeFilter}
+          setTypeFilter={setTypeFilter}
+          sortOrder={sortOrder}
+          setSortOrder={setSortOrder}
+        />
 
-      <div className="grid">
-        {filteredJobs.length > 0 ? (
-          filteredJobs.map((job) => (
-            <JobCard key={job.id} job={job} searchTerm={searchTerm} />
-          ))
-        ) : (
-          <p>No jobs found.</p>
-        )}
+        <div className="grid">
+          {filteredJobs.length > 0 ? (
+            filteredJobs.map((job) => (
+              <JobCard key={job.id} job={job} searchTerm={searchTerm} />
+            ))
+          ) : (
+            <p className="no-results">No jobs found.</p>
+          )}
+        </div>
       </div>
     </div>
   );
